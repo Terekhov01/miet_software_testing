@@ -1,0 +1,3305 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Разыменование пустого указателя \"matrix1\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 9,
+                  "endLine": 31,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "\"matrix1\" может быть равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"i<n1\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "\"matrix1\" разыменовано, но, возможно, по-прежнему равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Разыменование пустого указателя \"matrix2\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 9,
+                  "endLine": 35,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "\"matrix2\" может быть равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"i<n2\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "\"matrix2\" разыменовано, но, возможно, по-прежнему равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Разыменование пустого указателя \"result\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 9,
+                  "endLine": 44,
+                  "endColumn": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "\"result\" может быть равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"i<n1\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "\"result\" разыменовано, но, возможно, по-прежнему равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Разыменование пустого указателя \"result[i]\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 13,
+                  "endLine": 54,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "\"result[i]\" может быть равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Продолжить этот цикл (предполагается \"i<n1\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"i<n1\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"j<m2\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "\"result[i]\" разыменовано, но, возможно, по-прежнему равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Разыменование пустого указателя \"matrix2[k]\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 17,
+                  "endLine": 56,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "\"matrix2[k]\" может быть равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Продолжить этот цикл (предполагается \"i<n2\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"i<n1\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"j<m2\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"k<m1\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "\"matrix2[k]\" разыменовано, но, возможно, по-прежнему равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Разыменование пустого указателя \"matrix1[i]\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 17,
+                  "endLine": 56,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "\"matrix1[i]\" может быть равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Продолжить этот цикл (предполагается \"i<n1\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"i<n1\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"j<m2\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"k<m1\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "\"matrix1[i]\" разыменовано, но, возможно, по-прежнему равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/other/study/тестирование ПО/lab6/lab6/lab6/Sour2ce.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "76338e5a9488e757860978c15eddd298dbfa0b148442beba08b43a4f2c3f23b3"
+          }
+        }
+      ]
+    }
+  ]
+}

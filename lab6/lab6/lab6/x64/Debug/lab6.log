@@ -1,0 +1,8 @@
+﻿  Sour2ce.cpp
+C:\other\study\тестирование ПО\lab6\lab6\lab6\Sour2ce.cpp(18,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab6.vcxproj -> C:\other\study\тестирование ПО\lab6\lab6\x64\Debug\lab6.exe
+C:\other\study\тестирование ПО\lab6\lab6\lab6\Sour2ce.cpp(31): warning C6011: Разыменование пустого указателя "matrix1". 
+C:\other\study\тестирование ПО\lab6\lab6\lab6\Sour2ce.cpp(35): warning C6011: Разыменование пустого указателя "matrix2". 
+C:\other\study\тестирование ПО\lab6\lab6\lab6\Sour2ce.cpp(44): warning C6011: Разыменование пустого указателя "result". 
+C:\other\study\тестирование ПО\lab6\lab6\lab6\Sour2ce.cpp(54): warning C6011: Разыменование пустого указателя "result[i]". 
+C:\other\study\тестирование ПО\lab6\lab6\lab6\Sour2ce.cpp(56): warning C6011: Разыменование пустого указателя "matrix2[k]". 
